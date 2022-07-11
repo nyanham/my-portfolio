@@ -1,0 +1,73 @@
+.section {
+  min-height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.h2 {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  border-bottom: 2px solid black;
+  width: fit-content;
+}
+
+.row {
+  white-space: nowrap;
+  box-sizing: content-box;
+  margin: 2rem 0;
+
+  display: flex;
+
+  animation: move 20s linear infinite;
+}
+
+.rowReverse {
+  white-space: nowrap;
+  box-sizing: content-box;
+  margin: 2rem 0;
+
+  display: flex;
+
+  animation: move 20s linear infinite reverse;
+}
+
+.row div {
+  width: 5rem;
+  height: 5rem;
+  margin: 2rem;
+}
+
+.rowReverse div {
+  width: 5rem;
+  height: 5rem;
+  margin: 2rem;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(100%)
+  }
+
+  100% {
+    transform: translateX(-100%)
+  }
+}
+
+.item {
+  margin: 0 2rem;
+  padding: 5rem;
+}
+
+.item img {
+  width: 200%;
+  height: auto;
+}

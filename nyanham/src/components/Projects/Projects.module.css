@@ -1,0 +1,61 @@
+.section {
+  min-height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.h2 {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  border-bottom: 2px solid black;
+  width: fit-content;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: calc(20rem - 4vw);
+  padding: 5rem;
+  position: relative;
+
+  transition: all 0.3s ease;
+}
+
+.project:hover img {
+  transform: translateY(-2rem) scale(1.2);
+}
+
+.image {
+  margin: 0 auto;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+
+.image img {
+  width: 20rem;
+  height: auto;
+  transition: all 0.3s ease;
+}
+
+.title {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}

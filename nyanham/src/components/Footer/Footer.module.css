@@ -1,0 +1,54 @@
+.footer {
+  background-color: #212121;
+  min-height: 15vh;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  position: relative;
+}
+
+.container {
+  width: 75%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socials {
+  margin: 2rem;
+}
+
+.social {
+  width: 2rem;
+  height: 2rem;
+  padding: 1rem;
+
+  transition: all 0.2s ease;
+}
+
+.social:hover {
+  transform: scale(1.1);
+}
+
+.logo {
+  height: 5rem;
+  border-radius: 50%;
+  margin: 2rem;
+  transition: all 0.2s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.copy {
+  color: white;
+  font-size: 0.8rem;
+
+  margin: 2rem;
+}

@@ -1,0 +1,51 @@
+.section {
+  width: 75%;
+  min-height: 80vh;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1 {
+  font-size: 4.5rem;
+  line-height: 5.5rem;
+  font-weight: 900;
+  width: 80%;
+}
+
+.p {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  margin-top: 1.5rem;
+  width: 80%;
+}
+
+.socials {
+  text-align: right;
+
+  transition: all 0.2s ease;
+}
+
+.social:hover {
+  transform: scale(1.1);
+}
+
+.social {
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
